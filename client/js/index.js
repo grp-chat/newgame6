@@ -79,7 +79,7 @@ canvas.height = innerHeight
 
 var dropBox = document.createElement("select");
 dropBox.style.position = "absolute";
-dropBox.style.left = "78%";
+dropBox.style.left = "75%";
 dropBox.style.top = "5%";
 dropBox.setAttribute("id", "dropbox");
 document.body.appendChild(dropBox);
