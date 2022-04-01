@@ -5,7 +5,7 @@ var nickname = '';
 var pinNumber = 0;
 var correctPin = false;
 var secs = 0;
-var students = ["LK", "LXR", "TJY", "JHA", "JL", "SZF", "JV", "TCR"];
+var students = ["LK", "LXR", "TJY", "JHA", "JL", "SZF", "JV", "H", "TCR"];
 var gameOver = false;
 //var nothing = '';
 
@@ -40,6 +40,8 @@ const promptMsg = () => {
         correctPin = true;
     } else if (nick === '5691') {
         nickname = 'JV'
+    } else if (nick === '4048') {
+        nickname = 'H'
     } else if (nick === '88888') {
         nickname = 'TCR'
         correctPin = true;
