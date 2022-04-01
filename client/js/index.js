@@ -256,7 +256,7 @@ class Player {
         //console.log(this.role)
         c.fill()
         c.closePath()
-        c.strokeText(this.name, this.position.x - 12, this.position.y + 4)
+        c.strokeText(this.name, this.position.x - 10, this.position.y + 4)
         //c.fillText(secs.substring(0,2), 1000, 500)
         c.fillText(secs, 1000, 500)
     }
