@@ -26,6 +26,7 @@ var blinky = "none";
 var pinky = "none";
 var inky = "none";
 var pacman = "none";
+var reset = "";
 
 //===================================================================================================
 class Boundary {
