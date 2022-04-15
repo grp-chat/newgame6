@@ -208,6 +208,7 @@ Player.onConnect = function (socket) {
     
         if (player.nickname === pacman) {
             player.role = "pacman";
+            player.maxSpd = 5;
         }
 
     });
