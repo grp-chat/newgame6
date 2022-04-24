@@ -131,9 +131,16 @@ var Entity = function () {
 
         })
 
+        /* if (self.x === 820 && self.y === 60) {
+            self.x = 60
+            self.y = 60
+        } */
+
         //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         self.x += self.spdX;
         self.y += self.spdY;
+        
+        
 
     }
     return self;
@@ -189,6 +196,7 @@ Player.onConnect = function (socket) {
         player.nickname = data;
         //gameOver = false;
         //console.log(player.nickname);
+        
 
         if (player.nickname === blinky) {
             player.role = "blinky";
@@ -208,7 +216,7 @@ Player.onConnect = function (socket) {
     
         if (player.nickname === pacman) {
             player.role = "pacman";
-            player.maxSpd = 5;
+            player.maxSpd = 6;
         }
 
     });
